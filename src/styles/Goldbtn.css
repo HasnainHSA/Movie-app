@@ -1,0 +1,18 @@
+.goldbtn {
+    width: 173px;
+    height: 48px;
+    background-color: #CEA234;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    transition: 0.4s;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.goldbtn:hover{
+    background: transparent;
+    color: #CEA234;
+    border: 1px solid white;
+}

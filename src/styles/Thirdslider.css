@@ -1,0 +1,69 @@
+.third-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.thirdh1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #CEA234;
+}
+
+.third-topics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.thirdp {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FEFEFE;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+.thirdp:hover{
+    transform: scale(1.1);
+    color: #CEA234;
+    cursor: pointer;
+}
+
+.thirdpa {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FEFEFE;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+
+.thirdpa:hover{
+    transform: scale(1.1);
+    color: #CEA234;
+    cursor: pointer;
+}
+
+.thirdpar {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FEFEFE;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+.thirdpar:hover{
+    transform: scale(1.1);
+    color: #CEA234;
+    cursor: pointer;
+}

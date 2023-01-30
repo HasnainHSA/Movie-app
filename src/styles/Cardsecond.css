@@ -1,0 +1,84 @@
+.sec-card-main {
+    margin-top: 30px;
+    width: 250px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: rgba(251, 255, 24, 0.386) 0px 5px 15px;
+}
+
+.likebtn {
+    background: #D81515;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 2000px;
+    position: absolute;
+    top: 0;
+    left: 210px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-img-op {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.sec-img-btn {
+    position: absolute;
+    left: 16px;
+    top: 230px;
+}
+
+.sec-book {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+
+.show-starname {
+    position: relative;
+    right: 65px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FEFEFE;
+}
+
+.show-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.secpara {
+    position: relative;
+    right: 36px;
+    bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FEFEFE;
+
+}
+
+.sec-stars {
+    position: relative;
+    left: 40px;
+    bottom: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #CEA234;
+}

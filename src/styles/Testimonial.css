@@ -1,0 +1,155 @@
+/* .main{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: aquamarine;
+}
+
+.wrapper{
+    max-width: 1200px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .box{
+    background: #000;
+    border-radius: 3px;
+    padding: 25px;
+    width: calc(33% - 10px);
+}
+
+.wrapper .box i.quote{
+    font-size: 20px;
+    color: #e7d91c;
+}
+
+.wrapper .box .testpara{
+    color: white;
+}
+
+.wrapper .box .content{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wrapper .box .info .name{
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.wrapper .box .info .stars{
+    margin-top: 2px;
+}
+
+.box .info .stars i{
+    color: rgb(231, 231, 0);
+}
+
+.wrapper .box .content .image{
+    height: 75px;
+    width: 75px;
+    padding: 3px;
+
+}
+
+.box .content .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 1045px){
+    .wrapper .box{
+        width: calc(50% - 10px);
+        margin: 10px 0;
+    }
+}
+
+
+@media (max-width: 702px){
+    .wrapper .box{
+        width: 100%;
+    }
+}
+
+ */
+
+
+.text-wrapper {
+    margin: 20px;
+    width:  30vw;
+    height: 50vh;
+    background: #eaeaea;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #000000;
+    box-shadow: rgba(158, 158, 158, 0.501) 0px 5px 15px;
+}
+
+.test-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.testquote{
+    font-size: 30px;
+}
+
+.test-para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FEFEFE;
+    opacity: 0.75;
+}
+
+.testshape {
+    margin-left: 40px;
+    width: 80%;
+    width: 44px;
+    height: 1px;
+    background: #CEA234;
+    margin-bottom: 10px;
+}
+
+
+.profilecon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.test-img {
+    position: relative;
+    left: -20px;
+}
+
+.test-text {
+    position: relative;
+    right: 100px;
+    line-height: 2px;
+}
+
+.test-name {
+    color: #FEFEFE;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.test-star{
+    letter-spacing: 3px;
+    font-size: 18px;
+}

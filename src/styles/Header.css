@@ -1,0 +1,202 @@
+.headmain {
+    width: 1920px;
+    height: 600px;
+    background: #000000;
+    width: 100%;
+    position: relative;
+}
+
+.nav {
+    width: 80%;
+    color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+.nav .logo {
+    color: #CEA234;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.nav .headmenu {
+    background-color: #CEA234;
+    border-radius: 30px;
+    width: 48px;
+    height: 48px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 10px;
+}
+
+.nav .headmenu:hover{
+    background-color: #000000;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: #CEA234;
+}
+
+.nav .iconm{
+    margin-left: 100px;
+}
+
+
+/* dropdown menu */
+
+.dropdown{
+    position: absolute;
+    top: 70px;
+    left: 260px;
+    width: 60%;
+    height: 45vh;
+    background-color: #000000c6;
+    z-index: 10;
+    border-radius: 20px;
+    box-shadow: rgba(223, 223, 223, 0.235) 0px 5px 15px;
+}
+
+.dropdown .headul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.headul .headli a{
+    text-decoration: none;
+    color: white;
+}
+
+ .headul .headli a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid #CEA234;
+    transition: 0.4s linear;
+}
+
+.headul .headli a:hover::before {width: 90%;}
+
+.dropdown .nesul-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ 
+.nesul-main .nestul .nestulnes{
+    list-style: none;
+}
+
+.nesul-main .nestul .nestulnes li{
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.nesul-main .nestul .nestulnes li:hover{
+    transform: scale(1.1);
+}
+
+/* end */
+
+
+.divthree {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.nav .login {
+    background-color: #CEA234;
+    border-radius: 30px;
+    height: 48px;
+    width: 10vw;
+    padding: 0px, 38px, 0px, 38px;
+    transition: 0.5s;
+}
+
+.nav .login:hover{
+    background: transparent;
+    color: #CEA234;
+    border: 1px solid white;
+}
+
+hr {
+    background-color: #FEFEFE99;
+    width: 80%;
+    height: 1px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.headertext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 5;
+}
+
+.headertext .headh {
+    color: #CEA234;
+    font-weight: 700;
+    font-size: 10vh;
+    line-height: 75px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 668px;
+}
+
+.headertext .headpara {
+    margin-top: -10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #F4F4F4;
+}
+
+
+.headbg {
+    position: absolute;
+    width: 500px;
+    height: 490px;
+    left: 750px;
+    top: 60px;
+    background: radial-gradient(51.86% 51.86% at 50% 50%, #CEA234 0%, #000000 100%);
+}
+
+.headbg .headimg {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    mix-blend-mode: overlay;
+}
+
+
+/* Dots start */
+
+.dots{
+    position: absolute;
+    bottom: 40px;
+    left: 600px;
+}
+
+.dots .doticon{
+    font-size: 30px;
+}
